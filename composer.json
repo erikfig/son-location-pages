@@ -13,5 +13,12 @@
         "psr-4": {
             "Modules\\Pages\\": "./"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Pages\\Providers\\PageServiceProvider"
+            ]
+        }
     }
 }
